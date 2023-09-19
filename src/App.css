@@ -201,3 +201,41 @@ h1 {
   width: 60px;
   height: 60px;
 }
+
+/*------------------------------*/
+
+.sample-page{
+  height: 100vh;
+  width: 100%;
+  background-color: #009688;
+  padding-top: 70px;
+  
+}
+.header-text{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+.product-btn{
+  background: #fff;
+  color: black;
+}
+.form-container{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-input{
+  background: #fff;
+  color: black;
+}
+.image-input{
+  color: #fff;
+  font-weight: bold;
+}
+.selected-image{
+  width: 60px;
+  height: 60px;
+}
