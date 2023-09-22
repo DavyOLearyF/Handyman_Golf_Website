@@ -3,6 +3,7 @@ import { TodoWrapper } from './TodoWrapper';
 import background1 from '../BG1.jpeg';
 import background2 from '../BG2.jpeg';
 import logo from '../Logo-Final-bg.png';
+import ProductPopup from './ProductPopup'
 
 const ScrollButton = () => {
   const targetRef = useRef(null);
@@ -35,13 +36,13 @@ const ScrollButton = () => {
 				<h1>Handyman Golf</h1>
 				<p>For all your golf club needs.</p>
 				<div>
-                <button onClick={scrollToDiv} type='button'><span></span>View Products</button>
+                <button onClick={scrollToDiv} type='button' className='scroll-btn'><span></span>View Products</button>
 				</div>
 		</div>
     </div>
 	<div className="product-page" ref={targetRef}>
 			<div className="product-page-container">
-			<TodoWrapper/>
+			<ProductPopup/>
 			</div>
       </div>
     </div>

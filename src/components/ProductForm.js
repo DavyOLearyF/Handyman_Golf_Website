@@ -34,7 +34,7 @@ const FormToggle = () => {
         `<div className='selected-image'>   
         <img src="${URL.createObjectURL(selectedImage)}" alt="Selected"/>
         </div>` : ''}
-    `;          //not working correctly currently
+    `;          //not working correctly
 
     // Create a custom modal or dialog to display the message
     alertWithHTML(message);

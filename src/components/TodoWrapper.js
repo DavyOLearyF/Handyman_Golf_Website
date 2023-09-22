@@ -7,10 +7,10 @@ import { EditTodoForm } from "./EditTodoForm";
 export const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);
 
-  const addTodo = (todo) => {
+  const addTodo = (todo, imageSource) => {
     setTodos([
       ...todos,
-      { id: uuidv4(), task: todo, completed: false, isEditing: false },
+      { id: uuidv4(), task: todo, completed: false, isEditing: false, image: imageSource},
     ]);
   }
 
