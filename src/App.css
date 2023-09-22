@@ -128,17 +128,25 @@ input{
 /*	border: 5px solid #fff;*/
 	border-radius: 25px;
 	width: 50%;
-	height: 75%;
-	padding: 10px;
+  padding: 10px;
 	position: relative;
 	top: 12.5%;
 	/* transform: translate(0, -50%); */
-	background-color: rgba(0, 150, 136, 0.5)
+	background-color: rgba(0, 150, 136, 0.5); 
+}
+
+.product-box{
+  height:500px;
+  overflow-y: auto;
+}
+
+.spacer{
+  height: 10px;
 }
 
 .TodoWrapper {
   /* background: #1A1A40; */
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   padding: 2rem;
   border-radius: 5px;
 }
@@ -256,7 +264,7 @@ body.active-modal {
 .btn-modal {
   padding: 10px 20px;
   display: block;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
   font-size: 18px;
 }
 

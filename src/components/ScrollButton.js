@@ -42,7 +42,10 @@ const ScrollButton = () => {
     </div>
 	<div className="product-page" ref={targetRef}>
 			<div className="product-page-container">
-			<ProductPopup/>
+		
+				<ProductPopup/>
+		
+			
 			</div>
       </div>
     </div>
