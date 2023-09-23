@@ -209,6 +209,7 @@ h1 {
 .defaultImage{
   width: 60px;
   height: 60px;
+  margin-right: 15px;
 }
 
 /*------------------------------*/
@@ -320,6 +321,29 @@ input[type="file"]{
 label{
   cursor:pointer;
 }
-/* .camera{
-  pad
-} */
+
+.product-details {
+  flex: 1; /* Allow product details to take remaining space */
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.product-name {
+  /* Additional styling for the product name */
+  flex: 1; /* This will make the product name take available space */
+  font-weight: bold;
+  /* Add other styling properties as needed */
+}
+
+
+.product-description {
+  flex: 1;
+}
+
+/* Add styling for the separating line */
+.separator {
+  width: 2px;
+  height: 50px;
+  /* background-color: #ccc; */
+  margin: 0 10px; /* Adjust the margin for the gap */
+}
